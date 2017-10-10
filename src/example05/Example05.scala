@@ -26,5 +26,6 @@ object Example05 {
     val stu3 = new Student("Fred", 42)
     
     val teacher = new Teacher("Fred", 42)
+    println(teacher.description)
   }
 }
