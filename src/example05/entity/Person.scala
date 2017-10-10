@@ -9,5 +9,6 @@ class Person {
   def age = privateAge
   def age_=(newValue: Int) {
     if (newValue > age) privateAge = newValue
+    else if (newValue < 0) privateAge = 0
   }
 }
