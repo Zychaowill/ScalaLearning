@@ -1,0 +1,17 @@
+#### 如果正则模式包含分组，你可以用如下语法来提取它们的内容 for(regex(变量1,, ..., 变量n) <- 字符串)
+
+#### 如果你的正则表达式包含反斜杠或引号的话，用"""...""""
+
+#### “正则”.r是一个Regex对象
+
+#### 使用Java的PrintWriter来写入文本文件
+
+#### 将字符串转换为数字，可以用toInt或toDouble方法
+
+#### Source.fromFile(...).mkString以字符串形式输出文件内容
+
+#### Source.fromFile(...).getLines.toArray输出文件的所有行
+
+> e g:从文件中读取所有行或单词，或者读取包括数字的文件等
+
+# File process task
