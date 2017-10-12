@@ -1,17 +1,17 @@
 package discover.smallskill;
 
 import java.util.Arrays;
-import java.util.stream.IntStream;
+import java.util.stream.Stream;
 
 class ArrayOperJava {
 
 	public static void main(String[] args) {
-		int[] array = new int[] { 1, 2, 3, 1, 'a', 1, 'a' };
+		Object[] array = new Object[] { 1, 2, 3, 1, 'a', 1, 'a' };
 		
-		filterEqual(array).forEach(x -> System.out.println(x));
+		filterEqual(array).forEach(x -> System.out.print(x + " "));
 	}
 	
-	public static IntStream filterEqual(int[] array) {
+	public static Stream<Object> filterEqual(Object[] array) {
 		return  Arrays.stream(array).distinct();
 	}
 }
