@@ -1,7 +1,7 @@
 # Actor
 > actor提供了并发程序中与传统的基于锁的结构不同的另一种选择。
 > 通过尽可能避免锁和共享状态，actor使得我们能够更容易地设计出正确、没有死锁或争用状况的程序。
-> Scala类库提供了一个actor模型的简单实现。除此之外，还有其他更高级的actor类库，比如Akka（http://akka.io）
+> Scala类库提供了一个actor模型的简单实现。除此之外，还有其他更高级的actor类库，比如Akka（https://akka.io/docs/）
 
 ## Key point
 
