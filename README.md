@@ -1,2 +1,2 @@
-# ScalaPro
-A simple Scala project demo
+# ScalaLearning
+A simple Scala tutor.
